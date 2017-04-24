@@ -76,10 +76,10 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => 'mysqli',
+	'username' => 'ncadmin',
+	'password' => 'aneesh123$',
+	'database' => 'newschunk',
+	'dbdriver' => 'php_mongodb',// 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
@@ -92,5 +92,6 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
+	'connection_string'=> sprintf('mongodb://%s:%d/%s','127.0.0.1','27017','newschunk')
 	'save_queries' => TRUE
 );
