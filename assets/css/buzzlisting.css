@@ -1,0 +1,97 @@
+.fullbox{margin-top:115px;    width: 100%;
+    padding: 0 4%;
+    float: left;}
+.left-populars a {
+    width: 100%;
+    float: left;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.popbox{width: 100%;
+    max-height: 350px;
+    overflow: hidden;}
+.pophead{margin-top:0px;color:#6b6b6b;font-weight:bold;letter-spacing:1px;    line-height: 35px;
+    font-size: 27px;    margin-bottom: 20px;    max-height: 69px;
+    overflow: hidden;}
+.popsum{font-family:'open sans',sans-serif;font-size:15px;color:#464646;line-height: 27px;    max-height: 78px;
+    overflow: hidden;margin-bottom: 25px;}
+
+.popbox img{        min-height: 350px;
+    max-height: 350px;
+    max-width: initial;}
+.popularcomp>div{padding-left:0px;}
+@media (max-width:1024px){
+	.popbox {
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+}.popbox img {
+    min-height: 250px;
+    max-height: 250px;
+    max-width: initial;
+}
+	
+	
+}
+@media (max-width: 768px){
+	.fullbox {
+    margin-top: 131px;
+}
+
+.pophead{font-size: 25px;
+    margin-bottom: 10px;}
+.popsum{ max-height: 64px;
+    margin-bottom: 11px;
+    line-height: 22px;
+    font-size: 13px;}
+.popbox{    max-height: 200px;}
+	.popbox img {
+    min-height: 200px;
+    max-height: 200px;}
+
+
+}
+@media (max-width: 767px){
+.popularcomp>div{padding-left:0px;}
+.rm-right{padding-right:0px;}
+}
+
+@media (max-width: 480px){
+	.left-populars a {padding-top:15px;margin-bottom:15px;}
+.fullbox {
+    margin-top: 110px;
+}
+.pophead{    font-size: 22px;    line-height: 30px;
+    max-height: 61px;}
+.popsum{margin-bottom: 18px;}
+}
+@media (max-width: 320px){
+	.popbox {
+    max-height: 150px;
+}.popbox img {
+    min-height: 150px;
+    max-height: 150px;
+}.pophead {
+	    margin-top: -4px;
+        font-size: 18px;
+    line-height: 24px;
+    max-height: 48px;  
+}.popsum {
+    max-height: 61px;
+    line-height: 19px;
+    font-size: 12px;
+	    margin-top: 3px;
+}.popsum {
+    margin-bottom: 0px;
+}.listauth, .listtime {
+    font-size: 11px;
+}  .listauth{  margin-top: 5px;}
+.fullbox {
+    margin-top: 107px;
+}.left-populars a {
+    padding-top: 15px;
+    margin-bottom: 4px;
+	    padding-bottom: 15px;
+}
+}

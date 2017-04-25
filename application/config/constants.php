@@ -1,6 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
+define('NC_ASSSETS_JS', 'http://newschunk.com/assets/js/');
+define('NC_ASSSETS_CSS', 'http://newschunk.com/assets/css/');
+define('NC_ASSSETS_IMAGES', 'http://newschunk.com/assets/img/');
+define('NC_ASSSETS_FONTS', 'http://newschunk.com/assets/fonts/');
+define('NC_ASSSETS_EDITOR', 'http://newschunk.com/ckeditor/');
 /*
 |--------------------------------------------------------------------------
 | Display Debug backtrace
